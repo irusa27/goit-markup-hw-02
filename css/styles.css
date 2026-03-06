@@ -19,7 +19,7 @@
 
 body {
     background-color: var(--white);
-    color: var(--state);
+    color: var(--slate);
     font-family: var(--font-family);
     font-size: 16px;
     letter-spacing: 0.02em;
