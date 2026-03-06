@@ -31,7 +31,7 @@ ol {
     list-style-type: var(--list-style-type);
 }
 
-h2 {
+.section-title{
     color: var(--navy-blue);
     font-size: 36px;
     font-weight: 700;
@@ -40,7 +40,7 @@ h2 {
     text-align: center;
 }
 
-h3 {
+.list-title {
     color: var(--navy-blue);
     font-size: 20px;
     font-weight: 500;
@@ -62,15 +62,15 @@ h3 {
     letter-spacing: 0.03em;
 }
 
-.page-header>.logo {
+.logo {
     color: var(--navy-blue);
 }
 
-.logo .half-logo {
+.half-logo {
     color: var(--iris);
 }
 
-.nav .nav-link {
+.nav-link {
     color: var(--navy-blue);
     font-size: 16px;
     font-weight: 500;
@@ -78,13 +78,13 @@ h3 {
     text-decoration: var(--link-line);
 }
 
-.nav .nav-link:hover,
-.nav .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--ocean);
 }
 
 
-.contact .contact-link {
+.contact-link {
     color: var(--slate);
     font-size: 16px;
     font-style: normal;
@@ -92,8 +92,8 @@ h3 {
     text-decoration: var(--link-line);
 }
 
-.contact .contact-link:hover,
-.contact .contact-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: var(--ocean);
 }
 
@@ -105,7 +105,7 @@ h3 {
     background-color: var(--navy-blue);
 }
 
-.hero .hero-title {
+.hero-title {
     color: var(--white);
     font-size: 56px;
     font-weight: 700;
@@ -114,7 +114,7 @@ h3 {
     text-align: center;
 }
 
-.hero .hero-button {
+.hero-button {
     background-color: var(--iris);
     color: var(--white);
     font-size: 16px;
@@ -127,8 +127,8 @@ h3 {
     cursor: pointer;
 }
 
-.hero .hero-button:hover,
-.hero .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: var(--ocean);
 }
 
@@ -151,7 +151,7 @@ h3 {
     text-align: center;
 }
 
-.team-list>li {
+.list-item {
     background-color: var(--white);
 }
 
