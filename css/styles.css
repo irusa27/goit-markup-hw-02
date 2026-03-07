@@ -31,7 +31,7 @@ ol {
     list-style-type: var(--list-style-type);
 }
 
-.section-title{
+.section-title {
     color: var(--navy-blue);
     font-size: 36px;
     font-weight: 700;
@@ -150,7 +150,7 @@ ol {
     background-color: var(--cloud);
 }
 
-.team-list .list-title {
+.team-title {
     text-align: center;
 }
 
@@ -158,7 +158,7 @@ ol {
     background-color: var(--white);
 }
 
-.team-list .list-text {
+.team-text {
     text-align: center;
 }
 
@@ -175,10 +175,17 @@ ol {
     background-color: var(--navy-blue);
 }
 
-.page-footer>.logo {
+.footer-logo {
     color: var(--cloud);
+    font-family: var(--second-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16667;
+    text-transform: uppercase;
+    text-decoration: var(--link-line);
+    letter-spacing: 0.03em;
 }
 
-.page-footer>.text {
+.footer-text {
     color: var(--cloud);
 }
