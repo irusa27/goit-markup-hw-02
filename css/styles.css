@@ -22,6 +22,7 @@ body {
     color: var(--slate);
     font-family: var(--font-family);
     font-size: 16px;
+    font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
@@ -36,7 +37,6 @@ ol {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11111;
-    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -45,14 +45,18 @@ ol {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
 }
+
+/* .list-text { 
+    font-weight: 400;
+} */
 
 
 
 /* HEADER */
 
 .logo {
+    color: var(--navy-blue);
     font-family: var(--second-family);
     font-size: 18px;
     font-weight: 700;
@@ -63,7 +67,7 @@ ol {
 }
 
 .logo {
-    color: var(--navy-blue);
+     color: var(--navy-blue); 
 }
 
 .half-logo {
@@ -113,7 +117,6 @@ ol {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07143;
-    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -139,6 +142,7 @@ ol {
 .features {
     background-color: var(--white);
 }
+
 
 
 
@@ -188,4 +192,5 @@ ol {
 
 .footer-text {
     color: var(--cloud);
+    font-weight: 400;
 }
